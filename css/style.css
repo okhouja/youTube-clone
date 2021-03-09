@@ -58,8 +58,11 @@
 }
 .video-container {
   display: flex;
-  width: 85 vw;
-  height: 55vh;
-  flex-wrap: wrap;
+  justify-items: center;
+  align-items: flex-start;
+  margin: auto;
+  width: 75vw;
+  height: 49vh;
+  /* flex-wrap: wrap; */
   background-color: wheat;
 }
