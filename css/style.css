@@ -39,9 +39,27 @@
 .main-container {
   display: flex;
   background-color: lavender;
+  justify-content: space-between;
 }
-.main-container .main {
-  width: 7vw;
+.side-menu {
+  width: 14vw;
+  border: 2px blue dotted;
+}
+.main {
+  width: 86vw;
   height: 94vh;
   border: 2px red dashed;
+}
+.banner-container {
+  display: flex;
+  width: 85 vw;
+  height: 45vh;
+  background-color: burlywood;
+}
+.video-container {
+  display: flex;
+  width: 85 vw;
+  height: 55vh;
+  flex-wrap: wrap;
+  background-color: wheat;
 }
