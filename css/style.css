@@ -43,6 +43,16 @@ a {
   margin-top: 10px;
   text-align: center;
 }
+.topmenu_user {
+  display: flex;
+  /* background-size: 100%; */
+  /* background-position: center; */
+  width: 35px;
+  /* border: 2px white dotted; */
+}
+.topmenu_notif {
+  padding-top: 6px;
+}
 /*  Main  */
 .main-container {
   display: flex;
