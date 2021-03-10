@@ -54,9 +54,21 @@
 }
 .banner-container {
   display: flex;
-  width: 85 vw;
+  flex-direction: column;
   height: 45vh;
   background-color: burlywood;
+}
+.banner {
+  display: flex;
+  border: 2px rosybrown dashed;
+  width: 100%;
+  height: 65%;
+}
+.banner_links {
+  display: flex;
+  border: 2px saddlebrown dotted;
+  width: 100%;
+  height: 35%;
 }
 .videos-container {
   display: flex;
