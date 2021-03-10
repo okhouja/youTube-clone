@@ -53,6 +53,15 @@ a {
 .topmenu_notif {
   padding-top: 6px;
 }
+.topmenu_app {
+  padding-top: 3px;
+}
+.topmenu_create {
+  padding-top: 3px;
+}
+.top-menu {
+  padding-top: 4px;
+}
 /*  Main  */
 .main-container {
   display: flex;
