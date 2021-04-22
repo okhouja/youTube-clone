@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif, Helvetica;
-  background-color: black;
+  /* background-color: black; */
 }
 .top-menu {
   border: 2px blueviolet dashed;
@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  background-color: rgb(27, 27, 27);
+  /* background-color: rgb(27, 27, 27); */
   color: white;
 }
 a {
@@ -65,13 +65,13 @@ a {
 /*  Main  */
 .main-container {
   display: flex;
-  background-color: black;
+  /* background-color: black; */
   justify-content: space-between;
 }
 .side-menu {
   width: 14vw;
   border: 2px blue dotted;
-  background-color: rgb(27, 27, 27);
+  /* background-color: rgb(27, 27, 27); */
 }
 .main {
   width: 86vw;
