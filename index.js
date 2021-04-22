@@ -4,7 +4,9 @@ const theme = () => {
   console.log(mood);
   if (mood) {
     body.backgroundColor = "black";
+    body.fonts = "white";
   } else {
     body.backgroundColor = "white";
+    body.fonts = "black";
   }
 };

@@ -84,7 +84,7 @@ a {
   height: 45vh;
   color: gray;
   font-weight: 900;
-  background-color: black;
+  /* background-color: black; */
 }
 .banner {
   display: flex;
@@ -118,7 +118,7 @@ a {
 }
 .channel_header {
   width: 100%;
-  background-color: rgb(27, 27, 27);
+  /* background-color: rgb(27, 27, 27); */
 }
 
 .channel_logo {
@@ -182,7 +182,7 @@ a {
   width: 77vw;
   /* height: 80%; */
   flex-wrap: wrap;
-  background-color: black;
+  /* background-color: black; */
 }
 h2 {
   display: flex;
