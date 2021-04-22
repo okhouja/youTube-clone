@@ -43,6 +43,7 @@
           </ul>
         </nav>
       </div>
+      <img src="./icon/Menu.png" alt="" />
       <div class="logo">
         <label class="logo_text">Youtube</label>
       </div>
@@ -50,6 +51,16 @@
     <section class="main-container">
       <aside class="side-menu">
         <ul>
+          <li>
+            <input
+              type="checkbox"
+              onchange="theme()"
+              name="mood"
+              id="light-dark"
+            />
+
+            <button><a href="#">Dark Mode</a></button>
+          </li>
           <li><a href="#">Home</a></li>
           <li><a href="#">Trending</a></li>
           <li><a href="#">Subscriptions</a></li>
@@ -215,5 +226,17 @@
       </div>
     </section>
     <footer></footer>
+    <script>
+      const theme = () => {
+        const mood = document.querySelector("#light-dark").checked;
+        body = document.querySelector("body").style;
+        console.log(mood);
+        if (mood) {
+          body.backgroundColor = "black";
+        } else {
+          body.backgroundColor = "white";
+        }
+      };
+    </script>
   </body>
 </html>
